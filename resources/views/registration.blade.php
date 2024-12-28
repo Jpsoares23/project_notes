@@ -1,3 +1,6 @@
+@extends('layouts.mainLayout')
+@section('content')
+<!-- form -->
 <form action="/registrationSubmit" method="post">
     @csrf
     <div class="my-3">
@@ -24,3 +27,4 @@
         <button type="submit" class="btn btn-secondary w-100">Register</button>
     </div>
 </form>
+@endsection
